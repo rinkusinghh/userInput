@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #1f1f1f;
+}
+
+:root {
+  --Dark-color: #27ae60;
+  --Light-color: #2ecc71;
+}
