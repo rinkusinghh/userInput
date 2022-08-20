@@ -5,7 +5,7 @@ import Button from "../UI/Button";
 import classes from "./AddUser.module.css";
 import ErrorModal from "../UI/ErrorModal";
 
-const User = (props) => {
+const AddUser = (props) => {
   const [enteredUsername, setEnteredUsername] = useState("");
   const [enteredAge, setEnteredAge] = useState("");
   const [error, setError] = useState();
@@ -78,4 +78,4 @@ const User = (props) => {
   );
 };
 
-export default User;
+export default AddUser;
